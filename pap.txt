@@ -1,0 +1,2 @@
+10 print "help"
+20 input "test"; test$
