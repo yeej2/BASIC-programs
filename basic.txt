@@ -1,0 +1,8 @@
+10 INPUT "what is your name"; NAME$
+20 INPUT "input a number "; A%
+40 PRINT "hello "; NAME$
+50 FOR I=1 TO A%
+60 PRINT I
+70 NEXT
+80 INPUT "would you like to see this again (yes/no)"; AGAIN$
+90 IF AGAIN$ = "yes" THEN GoTo 10
