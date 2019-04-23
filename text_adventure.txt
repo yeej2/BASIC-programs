@@ -1,0 +1,19 @@
+10 INPUT "what is your name"; NAME$
+20 PRINT "hello "; NAME$; " are you ready"
+21 PRINT "for an adventure?"
+30 INPUT "(yes/no)"; YES$
+40 IF YES$ = "yes" THEN GoTo 50
+41 GoTo 42
+42 PRINT "well then come back later l00z3r."
+43 GoTo 10
+50 PRINT "alright "; NAME$; " go chase the rabbit"
+60 PRINT "choices:"
+61 PRINT "no"
+62 PRINT "ok"
+63 INPUT CHOICE$
+70 IF CHOICE$ = "no" GoTo 72
+71 GoTo 75
+72 I$ = "NOAFO:HFUDHFI:HF:NF:EFUE:FHUFOFJDBFUIALJFBUEUIFHSLFUIFBJFBKBFUE"
+73 PRINT I
+74 GoTo 72
+75 PRINT "thanks ... you win I guess"
